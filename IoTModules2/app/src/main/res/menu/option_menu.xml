@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/op_menu_share_house_id"
+        android:title="Share House Id" />
+    <item
+        android:id="@+id/op_menu_get_house_id"
+        android:title="Get House Id" />
+
+    <item
+        android:id="@+id/op_menu_feedback"
+        android:title="Send Feedback" />
+
+    <item
+        android:id="@+id/op_menu_logout"
+        android:title="Logout" />
+
+</menu>

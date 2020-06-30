@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/button_check_wifi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="checkWifiClick"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Check WiFi" />
+
+    <Button
+        android:id="@+id/button_led"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="ledClick"
+        android:text="@string/switch_led" />
+
+
+    <Button
+        android:id="@+id/button_database"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="databaseActivityClick"
+        android:text="Database activities" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:onClick="exitClick"
+        android:text="exit" />
+</LinearLayout>

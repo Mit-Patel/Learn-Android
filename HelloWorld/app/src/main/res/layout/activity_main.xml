@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/cake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/cake_picture"
+                android:scaleType="centerCrop"
+                android:scrollbars="vertical"
+                android:src="@drawable/cake" />
+
+            <TextView
+                android:id="@+id/event_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#536DFE"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:text="@string/happy_birthday_event"
+                android:textColor="@android:color/white"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/venue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#536DFE"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/venue"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/about_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:padding="16dp"
+                android:text="@string/about_event"
+                android:textColor="@android:color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/event_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/desc"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/event_desc_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/desc"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

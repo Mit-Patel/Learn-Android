@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.avpti.gtumcadprograms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".P5Success"></activity>
+        <activity android:name=".P14" />
+        <activity android:name=".P13" />
+        <activity android:name=".P12" />
+        <activity android:name=".P11" />
+        <activity android:name=".P10" />
+        <activity android:name=".P9" />
+        <activity android:name=".P8" />
+        <activity android:name=".P7" />
+        <activity android:name=".P6" />
+        <activity android:name=".P5" />
+        <activity android:name=".P4" />
+        <activity android:name=".P3" />
+        <activity android:name=".P2" />
+        <activity android:name=".P1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

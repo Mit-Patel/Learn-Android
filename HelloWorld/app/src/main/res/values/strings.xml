@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="desc">Hey Guys!How are your friends!Android Studio is the official Integrated Development Environment (IDE) for Android app development, based on IntelliJ IDEA . On top of IntelliJ\'s powerful code editor and developer tools, Android Studio offers even more features that enhance your productivity when building Android apps, such as:\n
+A flexible Gradle-based build system\n
+A fast and feature-rich emulation\n
+A unified environment where you can develop for all Android devices\n
+Instant Run to push changes to your running app without building a new APK\n
+Code templates and GitHub integration to help you build common app features and import sample code\n
+Extensive testing tools and frameworks\n
+Lint tools to catch performance, usability, version compatibility, and other problems\n
+C++ and NDK support\n
+Built-in support for Google Cloud Platform, making it easy to integrate Google Cloud Messaging and App Engine</string>
+    <string name="happy_birthday_event">Happy Birthday Event</string>
+    <string name="venue">Venue in Rajkot, India</string>
+    <string name="about_event">About Event</string>
+    <string name="cake_picture">Cake Picture</string>
+    <string name="title_activity_login">Login in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
